@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.227">
+<testcase classname="Fill a simple form with excel data" name="Data driven with excel and data sets" time="1.843">
+<system-out><![CDATA[When I open automationpractice website......................................passed
+And click contact us........................................................passed
+Then I contact the customer service with excel row "2" dataset..............passed
+]]></system-out>
+</testcase>
+</testsuite>

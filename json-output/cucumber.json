@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-01T14:48:08.909Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1824000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.DataDrivenFramework.beforeHook(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Data driven with excel and data sets",
+        "description": "",
+        "id": "fill-a-simple-form-with-excel-data;data-driven-with-excel-and-data-sets;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I open automationpractice website",
+            "match": {
+              "location": "stepDefinations.DataDrivenFramework.i_open_automationpractice_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click contact us",
+            "match": {
+              "location": "stepDefinations.DataDrivenFramework.click_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I contact the customer service with excel row \"2\" dataset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinations.DataDrivenFramework.i_contact_the_customer_service_with_excel_row_dataset(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fill a simple form with excel data",
+    "description": "",
+    "id": "fill-a-simple-form-with-excel-data",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/featureFiles/LoginApp.feature",
+    "tags": []
+  }
+]
